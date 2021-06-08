@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+// page: 103.
+import React from 'react';
+// import MyComponent from './MyComponent';
+// import PropsTest from './PropsTest';
+// import PropsTest2 from './PropsTest2';
+// import PropsTest3 from './PropsTest3';
+import PropsTest4 from './PropsTest4';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// const App = () => <MyComponent />;
+// const App = () => <PropsTest>리액트</PropsTest>;
+// const App = () => <PropsTest2>리액트2</PropsTest2>;
+// const App = () => <PropsTest3 name={'React'}>리액트3</PropsTest3>;
+const App = () => (
+	<PropsTest4 name={'React'} favoriteNumber={9}>
+		리액트3
+	</PropsTest4>
+);
 
 export default App;
