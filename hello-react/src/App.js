@@ -1,11 +1,11 @@
-// page: 190 / 908.
+// page: 218 / 908.
 import React, { Component } from 'react';
-import LifeCycleSampleWrap from './LifeCycleSampleWrap';
+import InfoCustomHooks from './InfoCustomHooks';
 
 // const App = () => <ValidationSample />;
 class App extends Component {
 	render() {
-		return <LifeCycleSampleWrap />;
+		return <InfoCustomHooks />;
 	}
 }
 
