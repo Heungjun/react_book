@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "qs": "^6.10.1",
-    "redux-actions": "^2.6.5"
+    "qs": "^6.10.1"
   }
 }
